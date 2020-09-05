@@ -36,7 +36,6 @@ for (let i = 0; i < dots.length; i++) {
                 dots[i].classList.add("active");
                 index = i;
                 track.style.height = trackItem[index].scrollHeight + "px";
-                console.log(trackItem[i].scrollHeight);
                 continue;
             }
             dots[k].classList.remove("active");
